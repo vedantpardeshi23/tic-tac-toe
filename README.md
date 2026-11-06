@@ -1,53 +1,66 @@
------------GroundStation Guard----------------
+A browser-based Tic Tac Toe game built using HTML, CSS and JavaScript.
+
+Features
+
+1)Interactive 3×3 game board
+
+2)Two-player mode (Player X vs Player O)
+
+3)Automatic winner detection
+
+4)Draw detection
+
+5)Score tracking
+
+6)Restart game functionality
 
 
-An Open-Source Security Validation Framework for Satellite Ground Infrastructure
+Technologies Used
 
-Building a research-oriented platform to evaluate cybersecurity controls in simulated satellite ground-segment systems.
+1)HTML5
 
-📌 Overview
+2)CSS3
 
-GroundStation Guard is an open-source research project focused on identifying and evaluating security weaknesses in satellite ground infrastructure.
-
-Satellite ground systems are responsible for communicating with spacecraft, transmitting commands, receiving telemetry, and managing mission operations.
-
-As satellite systems become increasingly important, protecting their ground infrastructure from cybersecurity threats becomes essential.
-
-GroundStation Guard aims to provide a controlled environment where developers and researchers can configure simulated satellite missions, execute security tests, analyse potential weaknesses, and generate security assessment reports.
+3)JavaScript 
 
 
-🎯 Project Objectives
 
-Model satellite ground-segment infrastructure.
 
-Evaluate access-control and command-authorisation mechanisms.
+Planned Features
 
-Test command integrity and replay protection.
+1)CPU opponent using Minimax algorithm
 
-Identify security-policy violations.
+2)Alpha-beta pruning
 
-Analyse potential attack paths through mission architecture.
+3)Multiple AI difficulty levels
 
-Generate reproducible security assessment reports.
+4)Improved user interface
 
-Explore integration with existing satellite simulation and mission-control software.
 
-Proposed Technology Stack
 
-Component. Technology  Language
+How to Run
 
-Frontend     React      JavaScript
+Clone this repository.
 
-Backend      Node.js,Express    JavaScript
+Open index.html in your browser.
 
-Database    PostgreSQL          SQL
+Start playing!
 
-ORM             Prisma          JavaScript
 
-Security engine FastAPI         Python
 
-Graph analysis  NetworkX         Python
+Learning Objectives
 
-Architecture visualisation  React Flow      JavaScript
+Strengthen JavaScript fundamentals.
 
-Automated testing   pytest, Vitest      Python, JavaScript
+Understand game logic and state management.
+
+Implement algorithms for game-playing AI.
+
+Explore Minimax and Alpha-beta pruning.
+
+
+
+
+Project Status
+
+Currently in development.
